@@ -18,7 +18,7 @@ for i in dict.keys():
   suma = sum(dict[i])
   long = len(dict[i])
   prom = suma/long
-  tupla = (i,suma,prom)
+  tupla = (i,float(suma),prom)
   lista.append(tupla)
 lista.sort(key=lambda x: x[0])
 

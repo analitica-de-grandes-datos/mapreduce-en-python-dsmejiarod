@@ -12,5 +12,5 @@ for row in sys.stdin:
 lista.sort(key=lambda x: (x[0], x[2]))
 
 for tupla in lista:
-  line =  tupla[0] + "\t" + str(tupla[1]) + "\t" + str(tupla[2]) + "\n"
+  line =  tupla[0] + "   " + str(tupla[1]) + "   " + str(tupla[2]) + "\n"
   sys.stdout.write(line) 

@@ -20,5 +20,5 @@ lista.sort(key=lambda x: x[0])
 
 for tupla in lista:
   
-  line =  str(tupla[0]) + "," + str(tupla[1]) + "\n"
+  line =  str(tupla[0]) + "\t" + str(tupla[1]) + "\n"
   sys.stdout.write(line) 

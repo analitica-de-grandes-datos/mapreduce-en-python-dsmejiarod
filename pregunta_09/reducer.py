@@ -13,5 +13,5 @@ lista.sort(key=lambda x: (x[2]))
 
 for i in range(6):
   tupla = lista[i]
-  line =  tupla[0] + "\t" + str(tupla[1]) + "\t" + str(tupla[2]) + "\n"
+  line =  tupla[0] + "   " + str(tupla[1]) + "   " + str(tupla[2]) + "\n"
   sys.stdout.write(line) 
